@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>generador de paleta</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title-content">
+      <h1>Generador de Paleta</h1>
+    </div>
+    <div class="colors-container">
+      <div class="color-card">
+        <div class="color" id="color1">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span1">Color 1</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color2">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span2">Color 2</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color3">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span3">Color 3</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color4">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span4">color4</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <input type="text" id="txtMyPalette" placeholder="Nombres."><br>
+
+  
+<div style="text-align: center;">
+  <button onclick="generatePalette()" style="border-radius: 50%;">Generar</button>
+  <div class="registrer-container">
+
+    <button onclick="savePalette()" style="border-radius: 50%;">Guardar</button>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="container">
+    <h1>ARCHIVADAS</h1>
+    <div class="my-palettes-container">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

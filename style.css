@@ -1,0 +1,101 @@
+body {
+    height: auto;
+    width: 100%;
+    background: rgb(132, 132, 223);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 70%;
+    height: auto;
+    margin: 30px;
+    padding-top: 10px;
+    background-color: rgb(30, 189, 218);
+    text-align: center;
+    margin-left: 15%;
+    padding-bottom: 50px;
+  }
+  
+  h1 {
+    color: rgb(43, 43, 74);
+  }
+  
+  .colors-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: 15%;
+  }
+  
+  .color-card {
+    width: 100px;
+    height: 120px;
+    background-color:white;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .color {
+    width: 90%;
+    height: 70%;
+    margin: 3.5%;
+  }
+  
+  .color-hexa {
+    background-color: white;
+    text-align: center;
+    color: rgb(21, 21, 54);
+    width: 100%;
+    height: 20px;
+  }
+  
+  button {
+    border-style: none;
+    background-color: rgb(100, 100, 167);
+    color: rgb(248, 248, 250);
+    border: 1px solid rgb(248, 248, 250);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+  }
+  
+
+  
+#txtMyPalette {
+	background-color: #FFC0CB;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+	border: 2px solid #FF1493;
+}s
+  span {
+    font-weight: bold;
+  }
+  
+  .color-stick {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    float: right;
+  }
+  
+  .card {
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  label {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
